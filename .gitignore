@@ -1,0 +1,32 @@
+# Archivos de instalación (demasiado grandes para Git)
+instaladores/*.exe
+instaladores/*.msi
+instaladores/*.dmg
+instaladores/*.deb
+instaladores/*.rpm
+
+# Mantener la carpeta pero no su contenido
+!instaladores/.gitkeep
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporales
+*.tmp
+*.temp
+*.cache
